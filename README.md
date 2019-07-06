@@ -30,7 +30,7 @@ JRE 叫 Java 运行环境，如果我们需要运行一个 Java 程序，就得�
 
 ## 第一个 `Hello World`
 
-> 文件：[HelloWorld](./day01/HelloWorld.java)
+> 示例文件：[HelloWorld](./day01/HelloWorld.java)
 
 <span style="color:red">Java 中所有的代码都必须包含在 class 中，main 方法是程序的入口，</span>
 并且 Java 是区分大小写的，如果写成 Main，那么程序将不能运行。
@@ -38,7 +38,7 @@ JRE 叫 Java 运行环境，如果我们需要运行一个 Java 程序，就得�
 
 ## 变量
 
-> 文件：[VarTest](./day02/VarTest.java)
+> 示例文件：[VarTest](./day02/VarTest.java)
 
 变量声明格式：`数据类型 变量名称；`
 例如：`int a=1;`
@@ -47,7 +47,7 @@ JRE 叫 Java 运行环境，如果我们需要运行一个 Java 程序，就得�
 
 ## 常量
 
-> 文件：[VarTest](./day02/VarTest.java)
+> 示例文件：[VarTest](./day03/FinalVar.java)
 
 可看作特殊的变量，只是它们在程序的运行过程中是不允许改变的。**常量的值是不能被修改的**。
 
@@ -82,7 +82,7 @@ boolean 类型（布尔类型）用于表示真值 true 或者假值 false，Jav
 
 ## 字符串
 
-> [StringTest](./day04/StringTest.java)
+> 示例文件：[StringTest](./day04/StringTest.java)
 
 Java 中使用 String 类来定义一个字符串，字符串是常量，它们的值在创建之后不能更改。字符串缓冲区支持可变的字符串。
 
@@ -102,9 +102,9 @@ String s1 = new String("abd");
 
 ![字符串常用提取方法](./img/字符串常用提取方法.png)
 
-## 运算符
+## 算术运算符
 
-> [ArithmeticOperation](./day05/ArithmeticOperation.java)
+> 示例文件：[ArithmeticOperation](./day05/ArithmeticOperation.java)
 
 算术运算符用在数学表达式中，主要实现的是算术运算，如常见的加法、减法、乘法、除法等。
 
@@ -118,7 +118,7 @@ String s1 = new String("abd");
 
 ## 二进制位运算符
 
-> [BitOperation](./day06/BitOperation.java)
+> 示例文件：[BitOperation](./day06/BitOperation.java)
 
 Java 定义了位运算符，应用于整数类型(int)，长整型(long)，短整型(short)，字符型(char)，和字节型(byte)等类型。
 
@@ -129,7 +129,7 @@ Java 定义了位运算符，应用于整数类型(int)，长整型(long)，短�
 
 ## 逻辑运算符
 
-> [LogicOperation](./day07/LogicOperation.java)
+> 示例文件：[LogicOperation](./day07/LogicOperation.java)
 
 逻辑运算符是通过运算符将操作数或等式进行逻辑判断的语句。
 
