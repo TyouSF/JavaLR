@@ -47,7 +47,7 @@ JRE 叫 Java 运行环境，如果我们需要运行一个 Java 程序，就得�
 
 ## 常量
 
-> 示例文件：[VarTest](./day03/FinalVar.java)
+> 示例文件：[FinalVar](./day03/FinalVar.java)
 
 可看作特殊的变量，只是它们在程序的运行过程中是不允许改变的。**常量的值是不能被修改的**。
 
