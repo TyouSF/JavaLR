@@ -38,4 +38,4 @@ JRE 叫 Java 运行环境，如果我们需要运行一个 Java 程序，就得�
 详细见：[Object-Oriented](./Object-Oriented/Object-Oriented.md)
 
 面向对象学习记录示例图：
-![]()
+![面向对象学习示例图](./img/面向对象学习示例图.png)
