@@ -30,6 +30,7 @@ JRE 叫 Java 运行环境，如果我们需要运行一个 Java 程序，就得�
 
 详细见：[ElementarySyntax](./ElementarySyntax/ElementarySyntax.md)
 
+基础语法学习记录示例图：
 ![基础语法学习示例图](./img/基础语法学习示例图.png)
 
 # 面向对象学习
