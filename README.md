@@ -10,8 +10,6 @@ Java 这门语言体系当中，最基础的部分就是 Java SE 部分，Java �
 
 JVM 叫 Java 虚拟机，它也是整个 Java 技术的核心。Java 语言的跨平台就多亏了 JVM。
 
-JVM 叫 Java 虚拟机，它也是整个 Java 技术的核心。Java 语言的跨平台就多亏了 JVM。
-
 JDK 叫 Java 开发工具包，没有 JDK 就没有办法进行 Java 程序的开发。
 
 JRE 叫 Java 运行环境，如果我们需要运行一个 Java 程序，就得安装 JRE。
