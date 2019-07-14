@@ -88,3 +88,37 @@ Math 类在 java.lang 包中，包含用于执行基本数学运算的方法，�
 
 常见方法：
 ![Math常用方法](../img/Math常用方法.png)
+
+# System
+
+> 示例文件：[SystemDemo](./day30/SystemDemo.java)
+
+System 类提供了一下功能：
+
+-   标准输入，标准输出和错误输出流;
+-   访问外部定义的属性和环境变量;
+-   加载文件和库的方法;
+-   以及用于快速复制数组的实用方法
+
+System 不可以被实例化，只可以使用其静态方法：
+
+```java
+//从指定的源数组中复制一个数组，从源数组指定的位置开始，到目标数组指定的位置
+public static void arraycopy(Object src,int srcPos, Object dest,int desPos,int length)
+//返回以毫秒为单位的当前时间(从1970年到现在的毫秒数)
+public static long currentTimeMillis()  
+//终止当前正在运行的Java虚拟机，status为 0时退出
+public static void exit(int status)  
+//  运行垃圾收集器
+public static void gc()
+// 取得当前系统的全部属性
+public static Properties getProperties()
+//获取指定键的系统属性
+public static String  getProperty(String key)
+```
+
+# Random
+
+> 示例文件：[RandomDemo](./day31/RandomDemo.java)
+
+Random 类用于生成伪随机数流，在java.util包下
