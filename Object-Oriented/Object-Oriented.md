@@ -478,7 +478,7 @@ interface Animal {
 定义语法如下：
 
 ```java
-package 包名
+package 包名;
 //注意：必须放在源程序的第一行，包名可用"."号隔开
 ```
 
@@ -487,11 +487,11 @@ package 包名
 ```Java
 //在定义文件夹的时候利用"/"来区分层次
 //包中用"."来分层
-package com.shiyanlou.java
+package com.shiyanlou.java;
 ```
 
 如何在不同包中使用另一个包中的类？
 
-使用import关键字。比如要导入包com.shiyanlou下People这个类，import com.shiyanlou.People。同时如果import com.shiyanlou._这是将包下的所有文件都导入进来，_是通配符
+使用 import 关键字。比如要导入包 `com.shiyanlou` 下 People 这个类，`import com.shiyanlou.People`。同时如果 `import com.shiyanlou.*` 这是将包下的所有文件都导入进来，是通配符
 
 **包的命名规范是全小写字母拼写**
