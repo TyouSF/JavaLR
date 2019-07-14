@@ -41,3 +41,6 @@ JRE 叫 Java 运行环境，如果我们需要运行一个 Java 程序，就得�
 # 常用类
 
 详细见：[CommonClasses](./CommonClasses/CommonClasses.md)
+
+常用类学习记录示例图：
+![常用类学习示例图](./img/常用类学习示例图.png)
