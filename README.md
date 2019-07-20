@@ -30,6 +30,9 @@ Java 学习中记录的一些小细节点，详细见：
 
 [LimeLight](./LimeLight.md)
 
+注意点学习记录示例图：
+![LimeLight示例图](./img/LimeLight示例图.png)
+
 # 基础语法学习
 
 详细见：[ElementarySyntax](./ElementarySyntax/ElementarySyntax.md)
