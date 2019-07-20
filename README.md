@@ -24,6 +24,12 @@ JRE 叫 Java 运行环境，如果我们需要运行一个 Java 程序，就得�
 -   变量名：`CLASSPATH`；变量值：`.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;`
 -   变量名：`Path`；变量值：`%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;`
 
+# 注意点汇总
+
+Java 学习中记录的一些小细节点，详细见：
+
+[LimeLight](./LimeLight.md)
+
 # 基础语法学习
 
 详细见：[ElementarySyntax](./ElementarySyntax/ElementarySyntax.md)
