@@ -53,3 +53,9 @@ Java 学习中记录的一些小细节点，详细见：
 
 常用类学习记录示例图：
 ![常用类学习示例图](./img/常用类学习示例图.png)
+
+# 异常以及异常处理
+
+有关 java 中的异常以及异常处理等：
+
+[Exception](./ThrowableException/Exception.md)
