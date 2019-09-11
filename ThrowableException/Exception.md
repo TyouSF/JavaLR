@@ -66,3 +66,63 @@ try {
   //最终要执行的一些代码
 }
 ```
+
+# 异常抛出与自定义异常
+
+> 示例文件：[ThrowException](./day26/ThrowException.java)
+
+throws/throw 关键字：
+
+如果一个方法没有捕获到一个检查性异常，那么该方法必须使用 throws 关键字来声明。throws 关键字放在方法签名的尾部。
+
+也可以使用 throw 关键字抛出一个异常，无论它是新实例化的还是刚捕获到的。
+
+下面方法的声明抛出一个 RemoteException 异常：
+
+```Java
+import java.io.*;
+public class className
+{
+  public void deposit(double amount) throws RemoteException
+  {
+    // Method implementation
+    throw new RemoteException();
+  }
+  //Remainder of class definition
+}
+```
+
+一个方法可以声明抛出多个异常，多个异常之间用逗号隔开。
+
+例如，下面的方法声明抛出 RemoteException 和 InsufficientFundsException：
+
+```Java
+import java.io.*;
+public class className
+{
+   public void withdraw(double amount) throws RemoteException,
+                              InsufficientFundsException
+   {
+       // Method implementation
+   }
+   //Remainder of class definition
+}
+```
+
+## 声明自定义异常
+
+在 Java 中你可以自定义异常。编写自己的异常类时需要记住下面的几点。
+
+-   所有异常都必须是 Throwable 的子类。
+-   如果希望写一个检查性异常类，则需要继承 Exception 类。
+-   如果你想写一个运行时异常类，那么需要继承 RuntimeException 类。
+
+可以像下面这样定义自己的异常类：
+
+```java
+class MyException extends Exception{
+}
+```
+
+只继承Exception 类来创建的异常类是检查性异常类。
+一个异常类和其它任何类一样，包含有变量和方法。
